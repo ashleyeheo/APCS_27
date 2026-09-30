@@ -7,8 +7,19 @@ import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
-	}
+int variableone = 19
+int variabletwo = 35
+
+if(variableone == variabletwo){
+	System.out.print("the first variable is: " + variableone)
+	System.out.print("the second variable is: " + variabletwo)
+}
+if(variableone > variabletwo){
+}
+if(variableone < variabletwo){
+	System.out.print("the ")
+}
+
+
+}
 }
