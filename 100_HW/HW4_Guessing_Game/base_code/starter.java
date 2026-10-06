@@ -25,7 +25,8 @@ if(int yesornoone == 1)
 if(int yesornoone == 2)
 {
 	System.out.print("ok what is your guess");
-	int yesornotwo = sc.nextInt();
+	int yesornothree = sc.nextInt();
+
 }
 
 
