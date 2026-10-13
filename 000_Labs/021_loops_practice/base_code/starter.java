@@ -7,7 +7,9 @@ import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// Your code goes below here
+Scanner sc = new Scanner(System.in);
+System.out.println("welcome to the pico guessing game!");
+System.out.print("please guess a number: ");
 
 
 
