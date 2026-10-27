@@ -20,7 +20,7 @@ public class starter {
             number = number + bonus;
         }
 
-        System.out.println("Bonus was: " + bonus);
+        System.out.println("bonus was: " + bonus);
 
         if (x == 0) {
             System.out.println("x is zero!");
@@ -28,6 +28,6 @@ public class starter {
         int x = 0;
 
         int number = 100;
-        System.out.println("Final number: " + number);
+        System.out.println("final number: " + number);
     }
 }

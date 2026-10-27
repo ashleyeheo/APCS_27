@@ -8,27 +8,25 @@ import java.util.Random;
 
 class starter {
 	public static void main(String args[]) {
-	Scanner sc = new Scanner(System.in);
-		System.out.println("would you like to be a wizard, warrior, or rogue?");
-String questionwwr = sc.nextLine();
+	
+Scanner sc = new Scanner(System.in);
+		
+		System.out.println("would you like to be a rogue, wizard, or warrior?");
+		String questionrww = sc.nextLine();
+		
+		if ((questionrww.equalsIgnoreCase("rogue"))) {
+			System.out.println("you have chosen to be a rogue! stealthy!");
+		}
+		else if ((questionrww.equalsIgnoreCase("warrior"))) {
+			System.out.println("you have chosen to be a warrior! charge!");
+		}
+		else if ((questionrww.equalsIgnoreCase("wizard"))) {
+			System.out.print("you have chosen to be a wizard! exquisite!");
+		}
+		else {
+			System.out.println("you have not chosen a role. rerun program.");
+		}
 
-		if(questionwwr.equalsIgnoreCase("wizard"))
-		{
-			System.out.print("you've chosen the wizard! excelsior!");
-			System.out.println();
-		}
-		else if(questionwwr.equalsIgnoreCase("warrior")){
-			System.out.print("you've chosen the warrior! for honor!");
-			System.out.println();
-		}
-		else if(questionwwr.equalsIgnoreCase("rogue")){
-			System.out.print("you've chosen the rogue! how cunning!");
-			System.out.println();
-		}
-	else{
-		System.out.print("you've decided not to choose a role. rerun program.");
-		System.out.println();
-	};
 
 	}
 }
