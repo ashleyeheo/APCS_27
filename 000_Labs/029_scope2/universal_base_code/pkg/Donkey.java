@@ -10,9 +10,15 @@ import java.util.Random;
 
 public class Donkey {
 	private String name;
+	private int age;
 
-	private Donkey() {
-		name = "Donkey";
+	private Donkey(String a) {
+		name = a;
+		age = 0;
+	}
+	private Donkey(String n, int a) {
+		name = n;
+		age = a;
 	}
 
 	private String getName(){

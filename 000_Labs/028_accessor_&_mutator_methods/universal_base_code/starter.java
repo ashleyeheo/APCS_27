@@ -19,7 +19,7 @@ class starter {
 		System.out.println();
 
 		System.out.println("----------ACCOUNT 1 ACTIONS----------");
-		a.setOwner("Mike Ehrmantraut");
+		a.setOwner("Mike Ehrmantraut"); 
 		a.deposit(50325.58);
 		System.out.println("The new owner of account a is " + a.getOwner());
 		System.out.println("The account balance of " + a.getOwner() + "'s account is " + a.getBalance());

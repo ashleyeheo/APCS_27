@@ -35,6 +35,6 @@ public class Spiderman {
     System.out.println("       o/                 ");   
     System.out.println("     ._/\\___,             ");    
     System.out.println("         \\                ");   
-    System.out.println("         /    			  "); 
+    System.out.println("         //   			  "); 
 	}
 }
