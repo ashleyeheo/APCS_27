@@ -23,8 +23,8 @@ public class Employee {
 		salary = s;
 	}
 
-	public int getID (int n)	{			// Returns the ID of the Employee
-		ID = n;
+	public int getID(){						// Returns the ID of the Employee
+		return ID;
 	}
 
 	public String getFirstName(){			// Returns First Name of the Employee

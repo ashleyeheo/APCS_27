@@ -39,7 +39,7 @@ System.out.print("the jailer is about to appear");
 }
 
 if(Money == 100){
-System.out.print("");	
+System.out.print("you get money");	
 }
 
 	
